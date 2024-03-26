@@ -1,0 +1,8 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="me.gujun.android.span" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+5-->/Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml
+6
+7</manifest>

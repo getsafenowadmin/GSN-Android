@@ -1,0 +1,8 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="me.dm7.barcodescanner.zxing" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+5-->/Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/barcodescanner/zxing/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12418258666013385297.xml
+6
+7</manifest>

@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml:2:13-83
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml:2:13-83
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml:2:13-83
+	package
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml
+		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml:2:13-83
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml
+	xmlns:android
+		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml:2:23-81
+uses-sdk
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml reason: use-sdk injection requested
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml
+	android:targetSdkVersion
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml
+		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml
+	android:minSdkVersion
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml
+		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/textdrawable/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17232769345162974602.xml
