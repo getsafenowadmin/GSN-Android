@@ -17,9 +17,9 @@
 package im.vector.app.features.settings
 
 object VectorSettingsUrls {
-    const val HELP = "https://matrix.getsafenow.app/help"
-    const val COPYRIGHT = "https://matrix.getsafenow.app/copyright"
-    const val ACCEPTABLE_USE_POLICY = "https://matrix.getsafenow.app/acceptable-use-policy-terms"
-    const val PRIVACY_POLICY = "https://matrix.getsafenow.app/privacy"
+    const val HELP = "https://getsafenow.app/help"
+    const val COPYRIGHT = "https://getsafenow.app/copyright"
+    const val ACCEPTABLE_USE_POLICY = "https://getsafenow.app/acceptable-use-policy-terms"
+    const val PRIVACY_POLICY = "https://getsafenow.app/privacy"
     const val THIRD_PARTY_LICENSES = "file:///android_asset/open_source_licenses.html"
 }

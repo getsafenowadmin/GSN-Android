@@ -710,7 +710,7 @@ class MessageComposerFragment : VectorBaseFragment<FragmentComposerBinding>(), A
             AttachmentType.FILE -> attachmentsHelper.selectFile(attachmentFileActivityResultLauncher)
             AttachmentType.GALLERY -> attachmentsHelper.selectGallery(attachmentMediaActivityResultLauncher)
             AttachmentType.CONTACT -> attachmentsHelper.selectContact(attachmentContactActivityResultLauncher)
-            AttachmentType.STICKER -> timelineViewModel.handle(RoomDetailAction.SelectStickerAttachment)
+//            AttachmentType.STICKER -> timelineViewModel.handle(RoomDetailAction.SelectStickerAttachment)
             AttachmentType.POLL -> navigator.openCreatePoll(requireContext(), roomId, null, PollMode.CREATE)
             AttachmentType.LOCATION -> {
                 navigator

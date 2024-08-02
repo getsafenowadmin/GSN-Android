@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/library/attachment-viewer" />
+            <option value="$PROJECT_DIR$/library/core-utils" />
+            <option value="$PROJECT_DIR$/library/external" />
+            <option value="$PROJECT_DIR$/library/external/autocomplete" />
+            <option value="$PROJECT_DIR$/library/external/barcodescanner" />
+            <option value="$PROJECT_DIR$/library/external/barcodescanner/core" />
+            <option value="$PROJECT_DIR$/library/external/barcodescanner/zxing" />
+            <option value="$PROJECT_DIR$/library/external/dialpad" />
+            <option value="$PROJECT_DIR$/library/external/diff-match-patch" />
+            <option value="$PROJECT_DIR$/library/external/jsonviewer" />
+            <option value="$PROJECT_DIR$/library/external/realmfieldnameshelper" />
+            <option value="$PROJECT_DIR$/library/external/span" />
+            <option value="$PROJECT_DIR$/library/external/textdrawable" />
+            <option value="$PROJECT_DIR$/library/multipicker" />
+            <option value="$PROJECT_DIR$/library/rustCrypto" />
+            <option value="$PROJECT_DIR$/library/ui-strings" />
+            <option value="$PROJECT_DIR$/library/ui-styles" />
+            <option value="$PROJECT_DIR$/matrix-sdk-android" />
+            <option value="$PROJECT_DIR$/matrix-sdk-android-flow" />
+            <option value="$PROJECT_DIR$/vector" />
+            <option value="$PROJECT_DIR$/vector-app" />
+            <option value="$PROJECT_DIR$/vector-config" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

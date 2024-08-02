@@ -625,14 +625,14 @@ class HomeActivity :
 
     override fun handleMenuItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-            R.id.menu_home_suggestion -> {
-                bugReporter.openBugReportScreen(this, ReportType.SUGGESTION)
-                true
-            }
-            R.id.menu_home_report_bug -> {
-                bugReporter.openBugReportScreen(this, ReportType.BUG_REPORT)
-                true
-            }
+//            R.id.menu_home_suggestion -> {
+//                bugReporter.openBugReportScreen(this, ReportType.SUGGESTION)
+//                true
+//            }
+//            R.id.menu_home_report_bug -> {
+//                bugReporter.openBugReportScreen(this, ReportType.BUG_REPORT)
+//                true
+//            }
             R.id.menu_home_init_sync_legacy -> {
                 // Configure the SDK
                 initialSyncStrategy = InitialSyncStrategy.Legacy
@@ -678,8 +678,17 @@ class HomeActivity :
     private fun launchInviteFriends() {
         activeSessionHolder.getSafeActiveSession()?.permalinkService()?.createPermalink(sharedActionViewModel.session.myUserId)?.let { permalink ->
             analyticsTracker.screen(MobileScreen(screenName = MobileScreen.ScreenName.InviteFriends))
-            val text = getString(R.string.invite_friends_text, permalink)
+            var text = getString(R.string.invite_friends_text, permalink)
+//            Timber.i("Debug - 3")
+//            Timber.i(text)
+            val pattern = "https://GetSafeNow.app/#/@(.*):spydefense.org".toRegex()
+            val matchResult = pattern.find(text)
 
+            if (matchResult != null) {
+                val username = matchResult.groupValues[1]
+                text = text.replace(pattern, "https://GetSafeNow.app\nMy username is @$username:spydefense.org")
+//                Timber.i(text)
+            }
             startSharePlainTextIntent(
                     context = this,
                     activityResultLauncher = null,

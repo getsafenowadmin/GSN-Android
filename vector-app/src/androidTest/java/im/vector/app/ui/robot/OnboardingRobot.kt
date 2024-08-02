@@ -16,9 +16,15 @@
 
 package im.vector.app.ui.robot
 
+import android.util.Log
+import android.view.View
+import android.widget.EditText
 import androidx.test.espresso.Espresso.closeSoftKeyboard
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.Espresso.pressBack
+import androidx.test.espresso.UiController
+import androidx.test.espresso.ViewAction
+import androidx.test.espresso.matcher.ViewMatchers.isEnabled
 import androidx.test.espresso.matcher.ViewMatchers.isRoot
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
@@ -31,6 +37,8 @@ import im.vector.app.R
 import im.vector.app.espresso.tools.waitUntilViewVisible
 import im.vector.app.features.DefaultVectorFeatures
 import im.vector.app.waitForView
+import org.hamcrest.Matcher
+import org.hamcrest.core.AllOf.allOf
 
 class OnboardingRobot {
     private val defaultVectorFeatures = DefaultVectorFeatures()
@@ -115,6 +123,30 @@ class OnboardingRobot {
         }
     }
 
+    private fun forceTypeText(text: String): ViewAction {
+        return object : ViewAction {
+            override fun getDescription(): String {
+                return "force type text and convert to lowercase"
+            }
+
+            override fun getConstraints(): Matcher<View> {
+                return allOf(isEnabled())
+            }
+
+            override fun perform(uiController: UiController?, view: View?) {
+                val lowercaseText = text.lowercase()
+                Log.d("forceTypeText", "Original text: $text, Lowercase text: $lowercaseText")
+
+                (view as? EditText)?.apply {
+                    Log.d("forceTypeText", "Before appending text: ${this.text}")
+                    this.append(lowercaseText)
+                    Log.d("forceTypeText", "After appending text: ${this.text}")
+                }
+                uiController?.loopMainThreadUntilIdle()
+            }
+        }
+    }
+
     private fun loginViaCombinedLogin(homeServerUrl: String, userId: String, password: String) {
         waitUntilViewVisible(withId(R.id.loginSplashSubmit))
         assertDisplayed(R.id.loginSplashSubmit, R.string.login_splash_create_account)
@@ -130,6 +162,8 @@ class OnboardingRobot {
         writeTo(R.id.loginInput, userId)
         writeTo(R.id.loginPasswordInput, password)
         clickOn(R.id.loginSubmit)
+        Log.d("loginViaCombinedLogin", "Typing user ID: $userId")
+        onView(withId(R.id.loginInput)).perform(forceTypeText(userId))
     }
 
     private fun initSession(
@@ -167,5 +201,9 @@ class OnboardingRobot {
 
         closeSoftKeyboard()
         clickOn(R.id.loginSubmit)
+
+        Log.d("loginViaCombinedLogin", "Typing user ID: $userId")
+        onView(withId(R.id.loginInput)).perform(forceTypeText(userId))
+
     }
 }

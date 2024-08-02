@@ -798,11 +798,11 @@ class TimelineFragment :
             if (menu is MenuBuilder) menu.setOptionalIconsVisible(true)
         }
         // We use a custom layout for this menu item, so we need to set a ClickListener
-        menu.findItem(R.id.open_matrix_apps)?.let { menuItem ->
-            menuItem.actionView?.setOnClickListener {
-                handleMenuItemSelected(menuItem)
-            }
-        }
+//        menu.findItem(R.id.open_matrix_apps)?.let { menuItem ->
+//            menuItem.actionView?.setOnClickListener {
+//                handleMenuItemSelected(menuItem)
+//            }
+//        }
         val joinConfItem = menu.findItem(R.id.join_conference)
         (joinConfItem.actionView as? JoinConferenceView)?.onJoinClicked = {
             timelineViewModel.handle(RoomDetailAction.JoinJitsiCall)
@@ -832,26 +832,26 @@ class TimelineFragment :
             menu.findItem(R.id.video_call).icon?.alpha = if (callButtonsEnabled) 0xFF else 0x40
             menu.findItem(R.id.voice_call).icon?.alpha = if (callButtonsEnabled || state.hasActiveElementCallWidget()) 0xFF else 0x40
 
-            val matrixAppsMenuItem = menu.findItem(R.id.open_matrix_apps)
-            val widgetsCount = state.activeRoomWidgets.invoke()?.size ?: 0
-            val hasOnlyJitsiWidget = widgetsCount == 1 && state.hasActiveJitsiWidget()
-            if (widgetsCount == 0 || hasOnlyJitsiWidget) {
-                // icon should be default color no badge
-                val actionView = matrixAppsMenuItem.actionView
-                actionView
-                        ?.findViewById<ImageView>(R.id.action_view_icon_image)
-                        ?.setColorFilter(ThemeUtils.getColor(requireContext(), R.attr.vctr_content_secondary))
-                actionView?.findViewById<TextView>(R.id.cart_badge)?.isVisible = false
-                matrixAppsMenuItem.setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER)
-            } else {
-                val actionView = matrixAppsMenuItem.actionView
-                actionView
-                        ?.findViewById<ImageView>(R.id.action_view_icon_image)
-                        ?.setColorFilter(colorProvider.getColorFromAttribute(R.attr.colorPrimary))
-                actionView?.findViewById<TextView>(R.id.cart_badge)?.setTextOrHide("$widgetsCount")
-                @Suppress("AlwaysShowAction")
-                matrixAppsMenuItem.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS)
-            }
+//            val matrixAppsMenuItem = menu.findItem(R.id.open_matrix_apps)
+//            val widgetsCount = state.activeRoomWidgets.invoke()?.size ?: 0
+//            val hasOnlyJitsiWidget = widgetsCount == 1 && state.hasActiveJitsiWidget()
+//            if (widgetsCount == 0 || hasOnlyJitsiWidget) {
+//                // icon should be default color no badge
+//                val actionView = matrixAppsMenuItem.actionView
+//                actionView
+//                        ?.findViewById<ImageView>(R.id.action_view_icon_image)
+//                        ?.setColorFilter(ThemeUtils.getColor(requireContext(), R.attr.vctr_content_secondary))
+//                actionView?.findViewById<TextView>(R.id.cart_badge)?.isVisible = false
+//                matrixAppsMenuItem.setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER)
+//            } else {
+//                val actionView = matrixAppsMenuItem.actionView
+//                actionView
+//                        ?.findViewById<ImageView>(R.id.action_view_icon_image)
+//                        ?.setColorFilter(colorProvider.getColorFromAttribute(R.attr.colorPrimary))
+//                actionView?.findViewById<TextView>(R.id.cart_badge)?.setTextOrHide("$widgetsCount")
+//                @Suppress("AlwaysShowAction")
+//                matrixAppsMenuItem.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS)
+//            }
 
             // Handle custom threads badge notification
             updateMenuThreadNotificationBadge(menu, state)
@@ -868,10 +868,10 @@ class TimelineFragment :
                 navigator.openRoomProfile(requireActivity(), timelineArgs.roomId)
                 true
             }
-            R.id.open_matrix_apps -> {
-                timelineViewModel.handle(RoomDetailAction.ManageIntegrations)
-                true
-            }
+//            R.id.open_matrix_apps -> {
+//                timelineViewModel.handle(RoomDetailAction.ManageIntegrations)
+//                true
+//            }
             R.id.voice_call -> {
                 callActionsHandler.onVoiceCallClicked()
                 true

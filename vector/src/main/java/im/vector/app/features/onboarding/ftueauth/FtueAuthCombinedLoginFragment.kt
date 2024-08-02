@@ -18,6 +18,8 @@ package im.vector.app.features.onboarding.ftueauth
 
 import android.os.Build
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -79,6 +81,23 @@ class FtueAuthCombinedLoginFragment :
         viewModel.onEach(OnboardingViewState::canLoginWithQrCode) {
             configureQrCodeLoginButtonVisibility(it)
         }
+
+        // Add TextWatcher to convert input to lowercase
+        views.loginInput.editText().addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
+            override fun afterTextChanged(s: Editable?) {
+                s?.let {
+                    val lowerCaseText = it.toString().lowercase()
+                    if (lowerCaseText != it.toString()) {
+                        views.loginInput.editText().apply {
+                            setText(lowerCaseText)
+                            setSelection(lowerCaseText.length)
+                        }
+                    }
+                }
+            }
+        })
     }
 
     private fun configureQrCodeLoginButtonVisibility(canLoginWithQrCode: Boolean) {

@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml:2:13-83
-INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml:2:13-83
-INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml:2:13-83
+ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml:2:13-83
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml:2:13-83
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml:2:13-83
 	package
-		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml
-		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml:2:13-83
-		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml
+		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml:2:13-83
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml
 	xmlns:android
-		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml:2:23-81
+		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml:2:23-81
 uses-sdk
-INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml reason: use-sdk injection requested
-INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml
-INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml
-INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml
-INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml reason: use-sdk injection requested
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml
 	android:targetSdkVersion
-		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml
-		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml
-		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml
+		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml
 	android:minSdkVersion
-		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml
-		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml
-		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml
+		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml

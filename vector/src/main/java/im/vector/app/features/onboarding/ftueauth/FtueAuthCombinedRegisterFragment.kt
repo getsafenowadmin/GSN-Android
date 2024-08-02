@@ -18,6 +18,8 @@ package im.vector.app.features.onboarding.ftueauth
 
 import android.os.Build
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -91,6 +93,22 @@ class FtueAuthCombinedRegisterFragment :
         views.createAccountInput.setOnFocusLostListener(viewLifecycleOwner) {
             viewModel.handle(OnboardingAction.UserNameEnteredAction.Registration(views.createAccountInput.content()))
         }
+        // Add TextWatcher to convert input to lowercase
+        views.createAccountEditText.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
+            override fun afterTextChanged(s: Editable?) {
+                s?.let {
+                    val lowerCaseText = it.toString().lowercase()
+                    if (lowerCaseText != it.toString()) {
+                        views.createAccountEditText.apply {
+                            setText(lowerCaseText)
+                            setSelection(lowerCaseText.length)
+                        }
+                    }
+                }
+            }
+        })
     }
 
     private fun canSubmit(account: CharSequence, password: CharSequence): Boolean {

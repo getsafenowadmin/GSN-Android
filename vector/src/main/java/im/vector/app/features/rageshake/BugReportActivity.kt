@@ -66,19 +66,19 @@ class BugReportActivity :
 
         // Default screen is for bug report, so modify it for suggestion
         when (reportType) {
-            ReportType.BUG_REPORT -> {
-                supportActionBar?.setTitle(R.string.title_activity_bug_report)
-                views.bugReportButtonContactMe.isVisible = true
-            }
-            ReportType.SUGGESTION -> {
-                supportActionBar?.setTitle(R.string.send_suggestion)
-
-                views.bugReportFirstText.setText(R.string.send_suggestion_content)
-                views.bugReportTextInputLayout.hint = getString(R.string.send_suggestion_report_placeholder)
-                views.bugReportButtonContactMe.isVisible = true
-
-                hideBugReportOptions()
-            }
+//            ReportType.BUG_REPORT -> {
+//                supportActionBar?.setTitle(R.string.title_activity_bug_report)
+//                views.bugReportButtonContactMe.isVisible = true
+//            }
+//            ReportType.SUGGESTION -> {
+//                supportActionBar?.setTitle(R.string.send_suggestion)
+//
+//                views.bugReportFirstText.setText(R.string.send_suggestion_content)
+//                views.bugReportTextInputLayout.hint = getString(R.string.send_suggestion_report_placeholder)
+//                views.bugReportButtonContactMe.isVisible = true
+//
+//                hideBugReportOptions()
+//            }
             ReportType.SPACE_BETA_FEEDBACK -> {
                 supportActionBar?.setTitle(R.string.send_feedback_space_title)
 

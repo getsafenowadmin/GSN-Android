@@ -43,15 +43,16 @@
                 android:src="@drawable/ic_attachment_gallery"
                 app:tint="?colorPrimary" />
 
-            <ImageButton
-                android:id="@+id/attachmentStickersButton"
-                android:layout_width="@dimen/layout_touch_size"
-                android:layout_height="@dimen/layout_touch_size"
-                android:layout_marginStart="2dp"
-                android:background="?android:attr/selectableItemBackground"
-                android:contentDescription="@string/attachment_type_sticker"
-                android:src="@drawable/ic_attachment_sticker"
-                app:tint="?colorPrimary" />
+<!--            <ImageButton-->
+<!--                android:id="@+id/attachmentStickersButton"-->
+<!--                android:layout_width="@dimen/layout_touch_size"-->
+<!--                android:layout_height="@dimen/layout_touch_size"-->
+<!--                android:layout_marginStart="2dp"-->
+<!--                android:background="?android:attr/selectableItemBackground"-->
+<!--                android:contentDescription="@string/attachment_type_sticker"-->
+<!--                android:src="@drawable/ic_attachment_sticker"-->
+<!--                app:tint="?colorPrimary"-->
+<!--                tools:visibility="gone"  />-->
 
             <ImageButton
                 android:id="@+id/attachmentFileButton"

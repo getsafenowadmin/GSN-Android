@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml:2:1-13
-INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml:2:1-13
-INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml:2:1-13
+ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml:2:1-13
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml:2:1-13
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml:2:1-13
 	package
-		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml
-		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml:2:1-13
-		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml
+		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml:2:1-13
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml:2:1-13
+		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml:2:1-13
 uses-sdk
-INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml
-INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml
-INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml
-INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml
+INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml
-		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml
-		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml
+		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml
-		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml
-		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/dialpad/src/main/AndroidManifest.xml
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml
+		ADDED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml
+		INJECTED from /Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/dialpad/src/main/AndroidManifest.xml

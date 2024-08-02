@@ -50,6 +50,7 @@ import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.session.identity.ThreePid
 import org.matrix.android.sdk.api.session.user.model.User
 import reactivecircus.flowbinding.android.widget.textChanges
+import timber.log.Timber
 import javax.inject.Inject
 
 @AndroidEntryPoint
@@ -96,7 +97,17 @@ class UserListFragment :
         viewModel.observeViewEvents {
             when (it) {
                 is UserListViewEvents.OpenShareMatrixToLink -> {
-                    val text = getString(R.string.invite_friends_text, it.link)
+                    var text = getString(R.string.invite_friends_text, it.link)
+//            Timber.i("Debug - 3")
+//            Timber.i(text)
+                    val pattern = "https://GetSafeNow.app/#/@(.*):spydefense.org".toRegex()
+                    val matchResult = pattern.find(text)
+
+                    if (matchResult != null) {
+                        val username = matchResult.groupValues[1]
+                        text = text.replace(pattern, "https://GetSafeNow.app\nMy username is @$username:spydefense.org")
+//                Timber.i(text)
+                    }
                     startSharePlainTextIntent(
                             context = requireContext(),
                             activityResultLauncher = null,

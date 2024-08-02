@@ -35,6 +35,7 @@ import org.matrix.android.sdk.api.session.permalinks.PermalinkData
 import org.matrix.android.sdk.api.session.permalinks.PermalinkParser
 import org.matrix.android.sdk.api.session.user.model.User
 import org.matrix.android.sdk.api.util.toMatrixItem
+import timber.log.Timber
 
 class UserCodeSharedViewModel @AssistedInject constructor(
         @Assisted val initialState: UserCodeState,
@@ -73,7 +74,18 @@ class UserCodeSharedViewModel @AssistedInject constructor(
 
     private fun handleShareByText() {
         session.permalinkService().createPermalink(session.myUserId)?.let { permalink ->
-            val text = stringProvider.getString(R.string.invite_friends_text, permalink)
+            var text = stringProvider.getString(R.string.invite_friends_text, permalink)
+//            Timber.i("Debug - 3")
+//            Timber.i(text)
+            val pattern = "https://GetSafeNow.app/#/@(.*):spydefense.org".toRegex()
+            val matchResult = pattern.find(text)
+
+            if (matchResult != null) {
+                val username = matchResult.groupValues[1]
+                text = text.replace(pattern, "https://GetSafeNow.app\nMy username is @$username:spydefense.org")
+//                Timber.i(text)
+            }
+
             _viewEvents.post(
                     UserCodeShareViewEvents.SharePlainText(
                             text,

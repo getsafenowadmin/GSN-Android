@@ -66,7 +66,7 @@ class AttachmentTypeSelectorView(
         views.attachmentGalleryButton.configure(AttachmentType.GALLERY)
         views.attachmentCameraButton.configure(AttachmentType.CAMERA)
         views.attachmentFileButton.configure(AttachmentType.FILE)
-        views.attachmentStickersButton.configure(AttachmentType.STICKER)
+//        views.attachmentStickersButton.configure(AttachmentType.STICKER)
         views.attachmentContactButton.configure(AttachmentType.CONTACT)
         views.attachmentPollButton.configure(AttachmentType.POLL)
         views.attachmentLocationButton.configure(AttachmentType.LOCATION)
@@ -126,7 +126,7 @@ class AttachmentTypeSelectorView(
             AttachmentType.CAMERA -> views.attachmentCameraButton
             AttachmentType.GALLERY -> views.attachmentGalleryButton
             AttachmentType.FILE -> views.attachmentFileButton
-            AttachmentType.STICKER -> views.attachmentStickersButton
+//            AttachmentType.STICKER -> views.attachmentStickersButton
             AttachmentType.CONTACT -> views.attachmentContactButton
             AttachmentType.POLL -> views.attachmentPollButton
             AttachmentType.LOCATION -> views.attachmentLocationButton
@@ -217,7 +217,7 @@ class AttachmentTypeSelectorView(
                 AttachmentType.CAMERA -> R.string.tooltip_attachment_photo
                 AttachmentType.GALLERY -> R.string.tooltip_attachment_gallery
                 AttachmentType.FILE -> R.string.tooltip_attachment_file
-                AttachmentType.STICKER -> R.string.tooltip_attachment_sticker
+//                AttachmentType.STICKER -> R.string.tooltip_attachment_sticker
                 AttachmentType.CONTACT -> R.string.tooltip_attachment_contact
                 AttachmentType.POLL -> R.string.tooltip_attachment_poll
                 AttachmentType.LOCATION -> R.string.tooltip_attachment_location

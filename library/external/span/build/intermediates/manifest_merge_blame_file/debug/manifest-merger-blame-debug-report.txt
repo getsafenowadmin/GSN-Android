@@ -3,6 +3,6 @@
 3    package="me.gujun.android.span" >
 4
 5    <uses-sdk android:minSdkVersion="21" />
-5-->/Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest18196012533498365805.xml
+5-->/Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/span/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest16446461158839315658.xml
 6
 7</manifest>

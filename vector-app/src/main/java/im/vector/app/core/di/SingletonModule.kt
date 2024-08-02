@@ -229,7 +229,7 @@ import javax.inject.Singleton
             isDebug = BuildConfig.DEBUG,
             applicationId = BuildConfig.APPLICATION_ID,
             lowPrivacyLoggingEnabled = Config.LOW_PRIVACY_LOG_ENABLE,
-            versionName = BuildConfig.VERSION_NAME,
+            versionName = "1.0.0",
             gitRevision = BuildConfig.GIT_REVISION,
             gitRevisionDate = BuildConfig.GIT_REVISION_DATE,
             gitBranchName = BuildConfig.GIT_BRANCH_NAME,

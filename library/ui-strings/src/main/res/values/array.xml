@@ -20,7 +20,6 @@
         <item>@string/media_source_choose</item>
         <item>@string/option_send_files</item>
         <item>@string/option_send_voice</item>
-        <item>@string/option_send_sticker</item>
         <item>@string/option_take_photo</item>
         <item>@string/option_take_video</item>
     </string-array>
@@ -30,7 +29,6 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
-        <item>5</item>
     </string-array>
 
     <!-- Room settings notification -->

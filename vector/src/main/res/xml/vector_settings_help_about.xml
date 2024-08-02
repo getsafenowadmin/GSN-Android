@@ -16,12 +16,12 @@
         <im.vector.app.core.preference.VectorPreference
             android:key="SETTINGS_COPYRIGHT_PREFERENCE_KEY"
             android:title="@string/settings_copyright"
-            android:summary="https://matrix.getsafenow.app/privacy" />
+            android:summary="https://getsafenow.app/privacy" />
 
         <im.vector.app.core.preference.VectorPreference
             android:key="SETTINGS_ACCEPTABLE_USE_POLICY_PREFERENCE_KEY"
             android:title="@string/settings_acceptable_use_policy"
-            android:summary="https://matrix.getsafenow.app/acceptable_use" />
+            android:summary="https://getsafenow.app/acceptable_use" />
 
         <im.vector.app.core.preference.VectorPreference
             android:key="SETTINGS_PRIVACY_POLICY_PREFERENCE_KEY"

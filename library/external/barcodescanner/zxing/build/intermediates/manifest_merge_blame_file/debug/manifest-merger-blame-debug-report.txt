@@ -3,6 +3,6 @@
 3    package="me.dm7.barcodescanner.zxing" >
 4
 5    <uses-sdk android:minSdkVersion="21" />
-5-->/Users/nk/Dev/OnGoing/GetSafeNow/element-android/library/external/barcodescanner/zxing/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest12418258666013385297.xml
+5-->/Users/nk/Dev/OnGoing/GetSafeNow/GitHub/Live/ProudBoys-Android/library/external/barcodescanner/zxing/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest4787733495010776103.xml
 6
 7</manifest>

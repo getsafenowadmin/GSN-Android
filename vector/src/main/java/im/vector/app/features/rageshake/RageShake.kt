@@ -63,33 +63,33 @@ class RageShake @Inject constructor(
     }
 
     override fun hearShake() {
-        val i = interceptor
-        if (i != null) {
-            vibrate(activity)
-            i.invoke()
-        } else {
-            if (dialogDisplayed) {
-                // Filtered!
-                return
-            }
-
-            vibrate(activity)
-            dialogDisplayed = true
-
-            MaterialAlertDialogBuilder(activity)
-                    .setMessage(R.string.send_bug_report_alert_message)
-                    .setPositiveButton(R.string.yes) { _, _ -> openBugReportScreen() }
-                    .also {
-                        if (sessionHolder.hasActiveSession()) {
-                            it.setNeutralButton(R.string.settings) { _, _ -> openSettings() }
-                        } else {
-                            it.setNeutralButton(R.string.action_disable) { _, _ -> disableRageShake() }
-                        }
-                    }
-                    .setOnDismissListener { dialogDisplayed = false }
-                    .setNegativeButton(R.string.no, null)
-                    .show()
-        }
+//        val i = interceptor
+//        if (i != null) {
+//            vibrate(activity)
+//            i.invoke()
+//        } else {
+//            if (dialogDisplayed) {
+//                // Filtered!
+//                return
+//            }
+//
+//            vibrate(activity)
+//            dialogDisplayed = true
+//
+//            MaterialAlertDialogBuilder(activity)
+//                    .setMessage(R.string.send_bug_report_alert_message)
+//                    .setPositiveButton(R.string.yes) { _, _ -> openBugReportScreen() }
+//                    .also {
+//                        if (sessionHolder.hasActiveSession()) {
+//                            it.setNeutralButton(R.string.settings) { _, _ -> openSettings() }
+//                        } else {
+//                            it.setNeutralButton(R.string.action_disable) { _, _ -> disableRageShake() }
+//                        }
+//                    }
+//                    .setOnDismissListener { dialogDisplayed = false }
+//                    .setNegativeButton(R.string.no, null)
+//                    .show()
+//        }
     }
 
     private fun openBugReportScreen() {

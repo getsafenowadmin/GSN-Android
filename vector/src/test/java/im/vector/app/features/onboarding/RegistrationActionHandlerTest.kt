@@ -136,7 +136,7 @@ class RegistrationActionHandlerTest {
         val orderedStages = listOf(Stage.ReCaptcha(mandatory = true, "ignored-key"), expectedFirstItem, Stage.Msisdn(mandatory = true))
         givenFlowResult(orderedStages)
 
-        val result = registrationActionHandler.processAction(state = aSelectedHomeserverState("https://matrix.getsafenow.app/"), RegisterAction.StartRegistration)
+        val result = registrationActionHandler.processAction(state = aSelectedHomeserverState("https://spydefense.org/"), RegisterAction.StartRegistration)
 
         result shouldBeEqualTo RegistrationActionHandler.Result.NextStage(expectedFirstItem)
     }

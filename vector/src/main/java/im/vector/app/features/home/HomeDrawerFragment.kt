@@ -40,6 +40,7 @@ import im.vector.app.features.usercode.UserCodeActivity
 import im.vector.app.features.workers.signout.SignOutUiWorker
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.util.toMatrixItem
+import timber.log.Timber
 import javax.inject.Inject
 
 @AndroidEntryPoint
@@ -105,8 +106,17 @@ class HomeDrawerFragment :
         views.homeDrawerInviteFriendButton.debouncedClicks {
             permalinkFactory.createPermalinkOfCurrentUser()?.let { permalink ->
                 analyticsTracker.screen(MobileScreen(screenName = MobileScreen.ScreenName.InviteFriends))
-                val text = getString(R.string.invite_friends_text, permalink)
+                var text = getString(R.string.invite_friends_text, permalink)
+//            Timber.i("Debug - 2")
+//            Timber.i(text)
+                val pattern = "https://GetSafeNow.app/#/@(.*):spydefense.org".toRegex()
+                val matchResult = pattern.find(text)
 
+                if (matchResult != null) {
+                    val username = matchResult.groupValues[1]
+                    text = text.replace(pattern, "https://GetSafeNow.app\nMy username is @$username:spydefense.org")
+//                Timber.i(text)
+                }
                 startSharePlainTextIntent(
                         context = requireContext(),
                         activityResultLauncher = null,

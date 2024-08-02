@@ -23,7 +23,7 @@ fun aHomeServerCapabilities(
         canChangePassword: Boolean = true,
         canChangeDisplayName: Boolean = true,
         canChangeAvatar: Boolean = true,
-        canChange3pid: Boolean = true,
+        canChange3pid: Boolean = false,
         maxUploadFileSize: Long = 100L,
         lastVersionIdentityServerSupported: Boolean = false,
         defaultIdentityServerUrl: String? = null,
